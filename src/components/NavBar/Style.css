@@ -1,0 +1,71 @@
+
+.link{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-weight: 900;
+    
+    /* padding-left: 550px; */
+}
+.link:hover{
+    color: gold;
+}
+.NavBar {
+    background-color: rgb(136, 135, 141);
+    display: flex;
+    justify-content: space-around;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0rem;
+}
+.navBar--height{
+    height: 2.5rem;
+  }
+  
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    /* line-height: 2.2; */
+  
+  }
+/* .btn {
+    display: flex;
+} */
+.dropdown-menu {
+    text-align: center;
+    /* display: grid; */
+    /* --bs-dropdown-item-padding-x: 0rem; */
+    --bs-dropdown-item-padding-y: 0rem;
+}
+
+
+
+img.Brand {
+    width: 0px; 
+    height: 0px; 
+
+}
+img.id {
+    width: 0px; 
+    height: 0px; 
+
+
+}
+.container-num{
+    width: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen {
+    width: 90px; 
+    height: 70px;
+}
+.navBar--height{
+    height: 4rem;
+  }
+
+  .btn-secondary {
+    display: grid;
+  }

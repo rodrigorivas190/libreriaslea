@@ -1,0 +1,52 @@
+
+
+.item {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* width: 20rem; */
+}
+div .itemcount-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+div .itemcount-btn button{
+    margin: 0.7rem 0.6rem 0.7rem 0.6rem;
+    background-color: white;
+}
+.itemcount-btn .itemcount-btn-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    height: 2.5rem;
+    width: 14rem;
+}
+.itemcount-btn > .itemcount-btn-left button{
+    border: none;
+    color: rgba(115, 180, 239, 1);
+}
+.itemcount-btn > .itemcount-btn-left button h3{
+    font-size: 1.2rem;
+}
+.itemcount-btn > .itemcount-btn-left h4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+}
+.itemcount-btn > .itemcount-btn-right button{
+    border: solid;
+    border-color: rgba(115, 180, 239, 0.7);
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    color: rgba(115, 180, 239, 1);
+    height: 2.5rem;
+    width: 14rem;
+}
