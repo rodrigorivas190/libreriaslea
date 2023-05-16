@@ -105,7 +105,7 @@ export const stock = [
         genero : "ROMANCE",
         idioma : "INGLES",
         titulo : "EN LA SOMBRA",
-        imagen : "../imagenes/EN LA SOMBRA.jpg",
+        imagen : "../imagenes/EN LA SOMBRA.JPG",
         descripcion : "AUTOBIOGRAFIA",
         cantidad : 1,
         precio : 8559,
